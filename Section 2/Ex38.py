@@ -1,5 +1,4 @@
-month = input("Please enter the name of a month: ")
-month = month.lower()
+month = input("Please enter the name of a month: ").lower()
 
 if month == "september" or month == "april" or month == "june" or month == "november":
 	print("There are 30 days in this month.")

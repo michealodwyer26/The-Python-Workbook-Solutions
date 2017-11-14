@@ -1,10 +1,8 @@
 noteAndOctave = input("Please enter a musical note: ")
 
 # Notes are written in the form note, octave eg. C4
-note = noteAndOctave[0]
+note = noteAndOctave[0].upper()
 octave = int(noteAndOctave[1])
-
-note = note.upper()
 
 frequency = -1
 
