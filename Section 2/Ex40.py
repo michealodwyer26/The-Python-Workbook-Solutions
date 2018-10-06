@@ -12,3 +12,6 @@ else:
 	triangleType = "scalene"
 	
 print("That is a {} triangle.".format(triangleType))
+
+
+	
